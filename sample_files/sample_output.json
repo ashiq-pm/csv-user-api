@@ -1,0 +1,38 @@
+{
+    "status": "success",
+    "total_records": 5,
+    "saved_records": 2,
+    "rejected_records": 2,
+    "skipped_duplicates": 1,
+    "errors": [
+        {
+            "row": 3,
+            "data": {
+                "name": "Invalid User",
+                "email": "invalidemail",
+                "age": "200"
+            },
+            "errors": {
+                "email": [
+                    "Enter a valid email address."
+                ],
+                "age": [
+                    "Age must be between 0 and 120"
+                ]
+            }
+        },
+        {
+            "row": 4,
+            "data": {
+                "name": "",
+                "email": "empty@example.com",
+                "age": "22"
+            },
+            "errors": {
+                "name": [
+                    "This field may not be blank."
+                ]
+            }
+        }
+    ]
+}

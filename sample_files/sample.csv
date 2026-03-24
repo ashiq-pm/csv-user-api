@@ -1,0 +1,6 @@
+name,email,age
+John Doe,john@example.com,25
+Jane Doe,jane@example.com,30
+Invalid User,invalidemail,200
+,empty@example.com,22
+Duplicate User,john@example.com,40
