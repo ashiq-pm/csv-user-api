@@ -69,7 +69,7 @@ csv-user-api/
 ### 1️⃣ Clone the Repository
 
 ```id="3sp8wp"
-git clone <your-repository-link>
+git clone (https://github.com/ashiq-pm/csv-user-api)
 cd csv-user-api
 ```
 
